@@ -4,10 +4,21 @@ A lightweight, always-on-top eye-care reminder for Windows. It periodically show
 
 Built with the Python standard library only (tkinter + ctypes). No third-party dependencies.
 
+## Screenshots
+
+The reminder banner (semi-transparent, click-through, fades in and out; messages rotate):
+
+![Blink reminder banner](docs/banner_blink_break.png)
+
+![Dry-eye reminder banner](docs/banner_dry_eyes.png)
+
+The control window with Pause, Snooze, and session statistics:
+
+![Control window](docs/control_window.png)
+
 ## Motivation
 
 Screen use suppresses blink rate and blink completeness, a major contributor to digital eye strain and dry eye. This tool nudges you to blink fully and to periodically relax eye focus at distance (the 20-20-20 rule: every 20 minutes, look at something 20 feet / 6 meters away for 20 seconds).
-
 
 ## Features
 
