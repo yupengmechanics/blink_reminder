@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Environments
+.venv/
+venv/
+.conda/
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
