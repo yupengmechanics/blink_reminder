@@ -4,11 +4,10 @@ A lightweight, always-on-top eye-care reminder for Windows. It periodically show
 
 Built with the Python standard library only (tkinter + ctypes). No third-party dependencies.
 
-## Why
+## Motivation
 
 Screen use suppresses blink rate and blink completeness, a major contributor to digital eye strain and dry eye. This tool nudges you to blink fully and to periodically relax eye focus at distance (the 20-20-20 rule: every 20 minutes, look at something 20 feet / 6 meters away for 20 seconds).
 
-Note: this is a wellness aid, not a medical treatment. Persistent dry-eye symptoms warrant an eye exam.
 
 ## Features
 
@@ -94,7 +93,6 @@ Known caveats of `--onefile` builds:
 
 ## Limitations
 
-- **Exclusive-fullscreen games**: overlays cannot render over games in exclusive fullscreen mode, which bypasses the Windows compositor. Use borderless-windowed mode (negligible performance cost on Windows 10/11), or rely on the beep.
 - **Multi-monitor**: anchors are relative to the primary display only; the banner does not follow the active window to a secondary monitor.
 - **Windows only**: the click-through and idle-detection mechanisms use the Win32 API directly.
 
